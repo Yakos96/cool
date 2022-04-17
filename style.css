@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+background-color: rgb(182, 182, 182);    
+color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: normal;
+font-family:'Roboto', sans-serif;
+ }
+
+ a {
+     color: black;
+     text-decoration: none;
+ }
+
+ a:hover {
+text-decoration: underline;
+  }
+
+a:active {
+    color: blueviolet;
+}
+a:visited{
+    color: rgb(85, 63, 167);
+}
+ .avatar{
+     width: 200px;
+     border-radius:28px;
+     box-shadow: 4px 4px 14px rgba (0.0.0.0.25);}
+.info p {
+    color: rgb(100, 87, 71);
+    margin:0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline ;
+
+}
+/*.social {
+background:goldenrod ;
+padding: 15px;
+border: 5px solid greenyellow;
+margin: 20px;}*/
+
+/*.box-model > div {
+    float: left;
+    background: #000;
+    height: 200px;
+    width: 20%;
+}*/ 
+
+.hoby {
+background: rgba(188, 212, 151, 0.966);
+} 
+
+
+.work {
+background: rgb(216, 216, 156);
+}
+
+.vist {
+background: rgb(209, 180, 126);
+
+}
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}   
+
+.list {
+    padding: 0px 20px;
+}
+.list li {
+color: rgb(126, 123, 123);
+margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.link {
+    list-style: none;
+    padding: 0;
+}
+.link li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.contact h2 {
+text-align: center;
+}
+.form-group label {
+display: block;
+font-size: 14px;
+color: rgb(61, 65, 56);
+}
+.form-group input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+/*.val {
+    text-align: center;*/
+
+.info{
+    display: flex;
+}
+.info-text{
+    margin-left: 30px;
+}
+.container{
+max-width: 750px;
+margin: auto;
+padding-top: 30px;
+
+}
+.knop {
+    background: rgb(131, 102, 102);
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.knop:hover{
+opacity: 0.9;
+}
